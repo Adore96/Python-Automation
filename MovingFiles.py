@@ -9,8 +9,8 @@ class Myhandler(FileSystemEventHandler):
     def on_modified(self, event):
         for filename in os.listdir(folder_to_take_files_from):
             src = folder_to_take_files_from + "/" + filename
-            new_location = new_location +"/"+filename
-            os.rename(src, new_location)
+            newdestination = new_location +"/"+filename
+            os.rename(src, newdestination)
             print("[INFO] File Moved.")
 
 
