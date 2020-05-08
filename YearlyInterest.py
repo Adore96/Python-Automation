@@ -1,7 +1,7 @@
 years = input('How many years will you be saving?  ')
 principal = input('How much money is there currently?  ')
 monthinvestment = input('How much do u think you can invest per monthly? ')
-interest = input('How much do you estimate will be the yearly interest of this investment? (10% = 0.1) ? ')
+interest = input('How much do you estimate will be the yearly interest of this investment?(10% = 0.1) ? ')
 
 print(' ')
 
