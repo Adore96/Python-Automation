@@ -19,7 +19,7 @@ class Myhandler(FileSystemEventHandler):
             src = folder_to_take_files_from + "/" + filename
             newdestination = new_location + "/" + filename
             os.rename(src, newdestination)
-            print("[INFO] File Moved.")
+            print("[INFO] File Moved..")
 
 
 folder_to_take_files_from = '/Users/kalharaperera/Desktop/n1'
